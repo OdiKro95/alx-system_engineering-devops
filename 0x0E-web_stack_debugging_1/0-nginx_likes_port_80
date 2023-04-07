@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+##!/usr/bin/env bash
 # debugging nginx port 80
 # How I solved it: delete the existing ../sites-enabled/default and replace it with a copy of
 # ../sites-available/default. You do that by creating a symbolic link. 
